@@ -1,9 +1,9 @@
 # seccon2014
 
-nicklegr (ソロ)
-Score: 700 
+* nicklegr (ソロ)
+* Score: 700 
 
-# 解けた問題
+## 解けた問題
 
 * Welcome to SECCON (Start 100)
 * Easy Cipher (Crypto 100)
