@@ -1,0 +1,210 @@
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.corecomponentinterfaces.CoreComponentControl closeCoreWindows
+情報: tcName was null
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Android Analyzer, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = E01ベリファイ, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Exifパーサ, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = 拡張子不一致ディテクター, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = ファイルタイプの特定, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = ハッシュルックアップ, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Interesting Files Identifier, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = アーカイブエクストラクター, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = キーワード検索, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Eメールパーサ, version = 3.1.1
+12 06, 2014 2:29:02 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = 最近のアクティビティ, version = 3.1.1
+12 06, 2014 2:29:34 午後 org.sleuthkit.autopsy.casemodule.AddImageTask commitImage
+情報: Image committed, imageId: 1
+12 06, 2014 2:29:34 午後 org.sleuthkit.autopsy.casemodule.AddImageTask commitImage
+情報: 物理メモリ使用状況（最大、合計、利用可能）：  1908932608, 96468992, 27608160
+JVMヒープ使用状況：init = 25165824(24576K) used = 68860832(67246K) committed = 96468992(94208K) max = 1908932608(1864192K)、JVM非ヒープ使用状況：init = 2555904(2496K) used = 72018088(70330K) committed = 75587584(73816K) max = -1(-1K)
+プロセス仮想メモリ：4,099,723,264
+12 06, 2014 2:29:36 午後 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+情報: Creating ingest module loader instance
+12 06, 2014 2:29:36 午後 org.sleuthkit.autopsy.recentactivity.ExtractRegistry <init>
+情報: RegRipper home: D:\Program Files\Autopsy-3.1.1\autopsy\rr
+12 06, 2014 2:29:36 午後 org.sleuthkit.autopsy.recentactivity.ExtractRegistry <init>
+情報: RegRipper Full home: D:\Program Files\Autopsy-3.1.1\autopsy\rr-full
+12 06, 2014 2:29:36 午後 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+情報: Load successful
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.modules.sevenzip.SevenZipIngestModule startUp
+情報: 7-Zip-JBinding library was initialized on supported platform: Windows-amd64
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule startUp
+情報: Initializing instance 0
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule startUp
+情報: Using string extract scripts: LATIN_1 
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule startUp
+情報: Initializing instance 1
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule startUp
+情報: Using string extract scripts: LATIN_1 
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.ingest.GetFilesCountVisitor visit
+情報: Executing count files query: ( (fs_obj_id = 2) ) AND ( (meta_type = 1) OR (meta_type = 2) OR (meta_type = 10 AND (name != '.') AND (name != '..')) )
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Chrome getHistory
+情報: アロケーションされたChrome履歴ファイルは見つかりませんでした。
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Chrome getBookmark
+情報: Didn't find any Chrome bookmark files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Chrome getCookie
+情報: Didn't find any Chrome cookies files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Chrome getLogin
+情報: Didn't find any Chrome signon files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Chrome getDownload
+情報: Didn't find any Chrome download files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+情報: Firefox履歴ファイルが見つかりませんでした。
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+情報: Didn't find any firefox bookmark files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+情報: Didn't find any pre-version-24.0 Firefox download files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+情報: Didn't find any version-24.0 Firefox download files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+情報: Didn't find any Firefox cookie files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+情報: Didn't find any IE bookmark files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+情報: Didn't find any IE cookies files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+情報: Pasco results path: D:\Projects\seccon2014\forensic100\forensic100_\Temp\RecentActivity\IE\results
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+情報: Pasco2 home: D:\Program Files\Autopsy-3.1.1\autopsy\pasco2
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+情報: Internet Explorer履歴ファイルが見つかりませんでした。
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+情報: Didn't find any recent files.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+情報: Processing 0 blackboard artifacts.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+情報: Extracted 0 queries from the blackboard
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+情報: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer complete
+情報: Search Engine URL Query Analyzer has completed.
+12 06, 2014 2:29:37 午後 org.sleuthkit.autopsy.modules.e01verify.E01VerifyIngestModule process
+情報: Skipping non-ewf image forensic100.img
+12 06, 2014 2:29:38 午後 org.sleuthkit.autopsy.keywordsearch.SearchRunner startJob
+情報: Adding job 1
+12 06, 2014 2:29:44 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+情報: Instance 1
+12 06, 2014 2:29:44 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+情報: Indexed files count: 0
+12 06, 2014 2:29:44 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+情報: Indexed file chunks count: 0
+12 06, 2014 2:29:44 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+情報: Instance 0
+12 06, 2014 2:29:45 午後 org.sleuthkit.autopsy.keywordsearch.SearchRunner doFinalSearch
+情報: Running final search for jobid 1
+12 06, 2014 2:29:45 午後 org.sleuthkit.autopsy.keywordsearch.TermComponentQuery performQuery
+情報: Query: qt=%2Fterms&terms=true&terms.limit=20000&terms.regex.flag=case_insensitive&terms.regex=%28%3F%3D.%7B8%7D%29%5Ba-z0-9%25%2B_-%5D%2B%28%3F%3A%5C.%5Ba-z0-9%25%2B_-%5D%2B%29*%40%28%3F%3A%5Ba-z0-9%5D%28%3F%3A%5Ba-z0-9-%5D*%5Ba-z0-9%5D%29%3F%5C.%29%2B%5Ba-z%5D%7B2%2C4%7D%28%3F%3C%21%5C.txt%7C%5C.exe%7C%5C.dll%7C%5C.jpg%7C%5C.xml%29&terms.fl=content_ws&timeAllowed=90000&debugQuery=false
+12 06, 2014 2:29:45 午後 org.sleuthkit.autopsy.keywordsearch.TermComponentQuery performQuery
+情報: Regex # results: 0
+12 06, 2014 2:29:45 午後 org.sleuthkit.autopsy.keywordsearch.SearchRunner$Searcher doInBackground
+情報: Searcher took to run: 0 secs.
+12 06, 2014 2:29:45 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule postIndexSummary
+情報: Keyword Indexing Completed: <table border=0><tr><td>既知タイプのファイル</td><td>0</td></tr><tr><td>一般的なストリングが抽出されたファイル</td><td>1</td></tr><tr><td>メタデータのみインデックス化されました</td><td>465</td></tr><tr><td>エラー（インデックスエラー）</td><td>0</td></tr><tr><td>エラー（テキスト抽出）</td><td>0</td></tr><tr><td>エラー（I/O）</td><td>0</td></tr></table>
+12 06, 2014 2:29:45 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+情報: Indexed files count: 466
+12 06, 2014 2:29:45 午後 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+情報: Indexed file chunks count: 1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Android Analyzer, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = E01ベリファイ, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Exifパーサ, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = 拡張子不一致ディテクター, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = ファイルタイプの特定, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = ハッシュルックアップ, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Interesting Files Identifier, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = アーカイブエクストラクター, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = キーワード検索, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Eメールパーサ, version = 3.1.1
+12 06, 2014 3:52:35 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = 最近のアクティビティ, version = 3.1.1
+12 06, 2014 3:52:52 午後 org.sleuthkit.autopsy.coreutils.Logger log
+重大: Core errors occurred while running add image. 
+org.sleuthkit.datamodel.TskCoreException: Errors occured while ingesting image 
+1. Cannot determine file system type (Sector offset: 0) 
+
+	at org.sleuthkit.datamodel.SleuthkitJNI.runAddImgNat(Native Method)
+	at org.sleuthkit.datamodel.SleuthkitJNI.access$500(SleuthkitJNI.java:38)
+	at org.sleuthkit.datamodel.SleuthkitJNI$CaseDbHandle$AddImageProcess.run(SleuthkitJNI.java:232)
+	at org.sleuthkit.autopsy.casemodule.AddImageTask.run(AddImageTask.java:148)
+	at java.lang.Thread.run(Unknown Source)
+
+12 06, 2014 3:52:52 午後 org.sleuthkit.autopsy.casemodule.AddImageTask postProcess
+警告: Critical errors or interruption in add image process. Image will not be committed.
+12 06, 2014 3:52:52 午後 org.sleuthkit.autopsy.casemodule.AddImageTask revert
+情報: Revert after add image process
+12 06, 2014 3:52:52 午後 org.sleuthkit.autopsy.casemodule.AddImageTask postProcess
+情報: There were errors that occured in add image process
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Android Analyzer, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = E01ベリファイ, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Exifパーサ, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = 拡張子不一致ディテクター, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = ファイルタイプの特定, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = ハッシュルックアップ, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Interesting Files Identifier, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = アーカイブエクストラクター, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = キーワード検索, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = Eメールパーサ, version = 3.1.1
+12 06, 2014 3:54:09 午後 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+情報: Found ingest module factory: name = 最近のアクティビティ, version = 3.1.1
+12 06, 2014 3:54:14 午後 org.sleuthkit.autopsy.coreutils.Logger log
+重大: Core errors occurred while running add image. 
+org.sleuthkit.datamodel.TskCoreException: Errors occured while ingesting image 
+1. Cannot determine file system type (Sector offset: 0) 
+
+	at org.sleuthkit.datamodel.SleuthkitJNI.runAddImgNat(Native Method)
+	at org.sleuthkit.datamodel.SleuthkitJNI.access$500(SleuthkitJNI.java:38)
+	at org.sleuthkit.datamodel.SleuthkitJNI$CaseDbHandle$AddImageProcess.run(SleuthkitJNI.java:232)
+	at org.sleuthkit.autopsy.casemodule.AddImageTask.run(AddImageTask.java:148)
+	at java.lang.Thread.run(Unknown Source)
+
+12 06, 2014 3:54:14 午後 org.sleuthkit.autopsy.casemodule.AddImageTask postProcess
+警告: Critical errors or interruption in add image process. Image will not be committed.
+12 06, 2014 3:54:14 午後 org.sleuthkit.autopsy.casemodule.AddImageTask revert
+情報: Revert after add image process
+12 06, 2014 3:54:14 午後 org.sleuthkit.autopsy.casemodule.AddImageTask postProcess
+情報: There were errors that occured in add image process
