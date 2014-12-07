@@ -1,7 +1,8 @@
 # seccon2014
 
 * nicklegr (ソロ)
-* Score: 700 
+* Score: 700
+* Rank: 278
 
 ## 解けた問題
 
