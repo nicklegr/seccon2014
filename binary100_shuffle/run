@@ -1,0 +1,47 @@
+Step 0 : FROM ubuntu
+ ---> e54ca5efa2e9
+Step 1 : RUN echo "Asia/Tokyo" > /etc/timezone
+ ---> Using cache
+ ---> 13cb0e7e4fa5
+Step 2 : RUN dpkg-reconfigure -f noninteractive tzdata
+ ---> Using cache
+ ---> 7e484bdd1eca
+Step 3 : RUN echo 'deb http://archive.debian.org/debian-archive/debian etch main' >> /etc/apt/sources.list
+ ---> Using cache
+ ---> 2e687e611365
+Step 4 : RUN apt-get -y update
+ ---> Using cache
+ ---> 6503790a50ca
+Step 5 : RUN apt-get install -y build-essential
+ ---> Using cache
+ ---> 24260010cad8
+Step 6 : RUN apt-get install -y binutils
+ ---> Using cache
+ ---> 3d310fddc951
+Step 7 : RUN apt-get install -y git
+ ---> Using cache
+ ---> be50f77bd94b
+Step 8 : RUN apt-get install -y unzip
+ ---> Using cache
+ ---> 19759225ef68
+Step 9 : RUN apt-get install -y libmhash-dev libjpeg-dev libmcrypt-dev zlib1g-dev
+ ---> Using cache
+ ---> 8a5d17dda4b6
+Step 10 : RUN apt-get install -y steghide
+ ---> Using cache
+ ---> 106daef330ed
+Step 11 : ADD . /tmp/home
+ ---> 467c718609d3
+Removing intermediate container 9bf25451a30b
+Step 12 : WORKDIR /tmp/home
+ ---> Running in a252016c5f1e
+ ---> a6d222362e54
+Removing intermediate container a252016c5f1e
+Step 13 : RUN chmod 777 ./shuffle
+ ---> Running in 07a39d07470d
+ ---> 87ee5f9babb6
+Removing intermediate container 07a39d07470d
+Step 14 : RUN ./shuffle
+ ---> Running in a63dcf04121e
+[91m/bin/sh: 1: ./shuffle: not found
+[0m
